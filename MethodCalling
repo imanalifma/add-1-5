@@ -1,0 +1,18 @@
+
+
+public class HelloWorld {
+    public static void main(String[] args) {
+     int result = max(5,6);
+     System.out.println(result);
+    }
+        public static int max(int a, int b) {
+    if (a > b) {
+        return a;
+    } 
+   
+    return b;
+    
+}
+
+
+    }
