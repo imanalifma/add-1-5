@@ -1,0 +1,10 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+       
+       int[]marks = {50,5, 70, 38, 29};
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println("Element at index " + i + ": " + marks[i]);
+        }
+       
+}
+}
